@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { db } from '../firebase';
 import { collection, addDoc } from 'firebase/firestore';
+import { CoolModeDemo } from './Button';
 
 const AddPantryItem = () => {
   const [name, setName] = useState('');
@@ -40,12 +41,12 @@ const AddPantryItem = () => {
         onChange={(e) => setQuantity(e.target.value)}
         className="w-full mb-4 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
-      <button 
+      <CoolModeDemo
         type="submit"
-        className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+       
       >
         Add Item
-      </button>
+      </CoolModeDemo>
     </form>
   );
 };

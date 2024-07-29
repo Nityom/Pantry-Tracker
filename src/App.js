@@ -2,7 +2,7 @@
 import React from 'react';
 import AddPantryItem from './components/AddPantryItem';
 import PantryList from './components/PantryList';
-
+import { CoolModeDemo } from './components/Button';
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
@@ -13,6 +13,7 @@ function App() {
           
           <AddPantryItem />
           <PantryList />
+      
         </div>
       </div>
     </div>
