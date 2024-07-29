@@ -2,6 +2,8 @@
 
 A React application for tracking pantry items using Firebase. This app allows users to add, display, and delete pantry items, with real-time updates stored in Firestore.
 
+## Live Preview : https://pantrytracker.netlify.app
+ 
 ## Features
 
 - Add pantry items
